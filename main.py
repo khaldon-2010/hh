@@ -1,0 +1,10 @@
+from tkinter import *
+pro=Tk()
+pro.geometry('500x500')
+run = Frame(width='500' ,height='125' ,bg='silver')
+run.place(x=1,y=1)
+bot = Button(run,text='khaled' ,fg='white' ,bg='black' ,width='30' ,cursor='heart')
+bot.place(x=10,y=10)
+lab = Label(run, text='khaled' , fg='black' , bg='silver' ,font=20)
+lab.place(x=10,y=40)
+pro.mainloop() 
